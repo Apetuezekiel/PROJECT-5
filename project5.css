@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#animationBoxContainer {
+    position: relative;
+    background-color: teal;
+    width: 500px;
+    height: 500px;
+}
+
+#animationBox {
+    height: 80px;
+    width: 80px;
+    background-color: white;
+    border: turquoise 1px solid;
+    position: absolute;
+}
